@@ -39,7 +39,7 @@ export default function App() {
       <TextInput
         style={styles.input}
         placeholder="Enter age"           // Ohjeteksti kentässä
-        keyboardType="numeric"            // Numeronäppäimistö
+        keyboardType="number-pad"         // Numeronäppäimistö (vain numerot)
         value={age}                       // Sidottu age-tilaan
         onChangeText={setAge}             // Päivittää tilan
       />
