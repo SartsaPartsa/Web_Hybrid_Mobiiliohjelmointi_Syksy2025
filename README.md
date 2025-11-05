@@ -77,7 +77,7 @@ Tehtava1/
 
 ---
 
-### 🎯 Oppimstavoitteet
+### 🎯 Oppimistavoitteet
 - React Native -perusteet
 - React Hooks (`useState`)
 - Käyttäjäsyötteen käsittely ja validointi
