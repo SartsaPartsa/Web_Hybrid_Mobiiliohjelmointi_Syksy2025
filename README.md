@@ -34,7 +34,7 @@ Jos käyttäjä syöttää **ei-numeerisen arvon** (esim. pisteitä, pilkkuja ta
 ### 🛠️ Käytetyt teknologiat ja komponentit
 - **React Native (Expo)**
 - **React Hook:** `useState`
-- **Komponentit:** `View`, `Text`, `TextInput`, `StyleSheet`
+- **React Native Komponentit:** `View`, `Text`, `TextInput`, `StyleSheet`
 
 ---
 
