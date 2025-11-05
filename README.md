@@ -1,26 +1,36 @@
 # Web_Hybrid_Mobiiliohjelmointi_Tavoitesyke
 
-## 📱 Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)
+## 📱 React Native — Heart Rate Limits
 **Oulun ammattikorkeakoulu — Syksy 2025**  
 **Opiskelija:** Sara Vehviläinen  
 
 ---
 
-### 📘 Kurssin kuvaus
-Tämä repositorio sisältää *Web- ja hybriditeknologiat mobiiliohjelmoinnissa* -kurssin viikkotehtävät ja harjoitukset.  
-Kurssilla perehdytään modernien web- ja mobiilisovellusten kehittämiseen Reactin ja React Nativen avulla.  
-Tavoitteena on oppia hyödyntämään web-teknologioita mobiiliympäristössä ja hallita peruskonseptit, kuten tietojen tallennus, API-kutsut ja sensoreiden käyttö.
+### 🧩 Tehtävän kuvaus
+Tämä sovellus laskee liikunnan **tavoitesykkeen ala- ja ylärajat** käyttäjän iän perusteella.  
+Tehtävä on osa kurssia *Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)*.
 
 ---
 
-### 🧩 Kurssin aiheet
-- Reactin kertaus ja edistyneet ominaisuudet  
-- TypeScript React-projekteissa  
-- Johdatus mobiiliteknologioihin ja React Nativeen  
-- Mobiilikäyttöliittymien suunnittelu ja toteutus  
-- Sensoreiden käyttö ja karttanäyttö  
-- Tiedon tallentaminen laitteen muistiin  
-- HTTPS- ja GraphQL-kutsujen toteuttaminen  
-- Avoimen datan hyödyntäminen  
-- NPM-pakettien luonti ja julkaisu  
-- NoSQL ja Firebase  
+### 🧮 Laskentakaavat
+- **Ala-arvo:** `(220 - ikä) × 0.65`  
+- **Yläarvo:** `(220 - ikä) × 0.85`  
+
+Jos käyttäjä syöttää **ei-numeerisen arvon** (esimerkiksi vain pisteitä tai pilkkuja), sovellus näyttää **0** sekä ala- että ylärajaksi.
+
+---
+
+### ✨ Toiminnallisuus
+- Käyttäjä syöttää iän tekstikenttään.  
+- Sovellus laskee ja näyttää tavoitesykkeen ala- ja ylärajan.  
+- Jos syöte ei ole kelvollinen, tuloksiksi näytetään **0 ja 0**.  
+
+---
+
+### 🛠️ Käytetyt teknologiat
+- **React Native (Expo)**
+- **React Hooks (useState)**
+- Komponentit: `TextInput`, `Button` tai `Pressable`, `Text`, `View`
+
+---
+
