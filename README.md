@@ -62,8 +62,8 @@ Jos käyttäjä syöttää **ei-numeerisen arvon** (esim. pisteitä, pilkkuja ta
 ```
 Tehtava1/
   Tavoitesyke/
-    ├── App.tsx          # Sovelluksen pääkomponentti
-    ├── package.json     # Projektin riippuvuudet ja npm-skriptit
+    ├── App.tsx         # Sovelluksen pääkomponentti
+    ├── package.json    # Projektin riippuvuudet ja npm-skriptit
     ├── app.json        # Expo-sovelluksen konfiguraatiotiedosto
     ├── tsconfig.json   # TypeScript-kääntäjän asetukset
     ├── index.ts        # Sovelluksen käynnistyspiste
