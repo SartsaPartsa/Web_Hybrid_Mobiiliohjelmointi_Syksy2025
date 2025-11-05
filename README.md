@@ -38,22 +38,27 @@ Jos käyttäjä syöttää **ei-numeerisen arvon** (esim. pisteitä, pilkkuja ta
 
 ---
 
-### 🚀 Käyttöönotto
-1. Asenna riippuvuudet  
-   ```bash
-   npm install
-   ```
+#### Olemassa olevan projektin käynnistys:
+```bash
+# Asenna riippuvuudet
+npm install
 
-2. Käynnistä sovellus  
-   ```bash
-   npm start
-   ```
+# Käynnistä kehityspalvelin
+npx expo start
+```
 
-3. Skannaa QR-koodi **Expo Go** -sovelluksella tai käynnistä emulaattorissa  
-   ```bash
-   npm run android   # Android-emulaattori
-   npm run ios       # iOS-simulaattori
-   npm run web       # Verkkoselain
+### Sovelluksen testaaminen:
+
+#### 📱 Mobiililaite:
+1. Asenna **Expo Go** -sovellus (iOS App Store / Google Play)
+2. Skannaa QR-koodi Expo Go -sovelluksella
+
+#### 💻 Emulaattori/Simulaattori:
+```bash
+npm run android   # Android-emulaattori
+npm run ios       # iOS-simulaattori  
+npm run web       # Verkkoselain
+```  
    ```
 
 ---
