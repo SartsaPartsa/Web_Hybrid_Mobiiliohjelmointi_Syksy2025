@@ -1,26 +1,91 @@
-# Web_Hybrid_Mobiiliohjelmointi_Syksy2025
+# Web_Hybrid_Mobiiliohjelmointi_Tavoitesyke
 
-## 📱 Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)
-**Oulun ammattikorkeakoulu — Syksy 2025**  
-**Opiskelija:** Sara Vehviläinen  
+## 📱 React Native — Heart Rate Limits
 
----
-
-### 📘 Kurssin kuvaus
-Tämä repositorio sisältää *Web- ja hybriditeknologiat mobiiliohjelmoinnissa* -kurssin viikkotehtävät ja harjoitukset.  
-Kurssilla perehdytään modernien web- ja mobiilisovellusten kehittämiseen Reactin ja React Nativen avulla.  
-Tavoitteena on oppia hyödyntämään web-teknologioita mobiiliympäristössä ja hallita peruskonseptit, kuten tietojen tallennus, API-kutsut ja sensoreiden käyttö.
+**Tekijä:** Sara Vehviläinen  
+**Oppilaitos:** Oulun ammattikorkeakoulu  
+**Kurssi:** Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)  
+**Lukukausi:** Syksy 2025  
 
 ---
 
-### 🧩 Kurssin aiheet
-- Reactin kertaus ja edistyneet ominaisuudet  
-- TypeScript React-projekteissa  
-- Johdatus mobiiliteknologioihin ja React Nativeen  
-- Mobiilikäyttöliittymien suunnittelu ja toteutus  
-- Sensoreiden käyttö ja karttanäyttö  
-- Tiedon tallentaminen laitteen muistiin  
-- HTTPS- ja GraphQL-kutsujen toteuttaminen  
-- Avoimen datan hyödyntäminen  
-- NPM-pakettien luonti ja julkaisu  
-- NoSQL ja Firebase  
+### 🧩 Tehtävän kuvaus
+Tämä sovellus laskee liikunnan **tavoitesykkeen ala- ja ylärajat** käyttäjän iän perusteella.  
+Tehtävä on osa kurssia *Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)*.
+
+---
+
+### 🧮 Laskentakaavat
+- **Ala-arvo:** `(220 - ikä) × 0.65`  
+- **Yläarvo:** `(220 - ikä) × 0.85`  
+
+Jos käyttäjä syöttää **ei-numeerisen arvon** (esim. pisteitä, pilkkuja tai kirjaimia), sovellus näyttää **0** sekä ala- että ylärajaksi.
+
+---
+
+### ✨ Toiminnallisuus
+- Käyttäjä syöttää **iän** tekstikenttään.  
+- Sovellus laskee ja näyttää tavoitesykkeen **ala- ja ylärajan** reaaliaikaisesti.  
+- Jos syöte ei ole kelvollinen, molemmat arvot ovat **0**.  
+- Tekstikenttä hyväksyy vain numerot (`keyboardType="number-pad"`).  
+
+---
+
+### 🛠️ Käytetyt teknologiat ja komponentit
+- **React Native (Expo)**
+- **React Hook:** `useState`
+- **Komponentit:** `View`, `Text`, `TextInput`, `StyleSheet`
+
+---
+
+### 🚀 Käyttöönotto
+1. Asenna riippuvuudet  
+   ```bash
+   npm install
+   ```
+
+2. Käynnistä sovellus  
+   ```bash
+   npm start
+   ```
+
+3. Skannaa QR-koodi **Expo Go** -sovelluksella tai käynnistä emulaattorissa  
+   ```bash
+   npm run android   # Android-emulaattori
+   npm run ios       # iOS-simulaattori
+   npm run web       # Verkkoselain
+   ```
+
+---
+
+### 📁 Projektikansio
+```
+Tehtava1/
+  Tavoitesyke/
+    ├── App.tsx          # Pääsovellus
+    ├── package.json     # Riippuvuudet ja skriptit
+    ├── app.json        # Expo-konfiguraatio
+    ├── tsconfig.json   # TypeScript-konfiguraatio
+    ├── index.ts        # Sovelluksen käynnistyspiste
+    └── assets/         # Resurssit (kuvat, fontit)
+```
+
+---
+
+### 🎯 Oppimistavoitteet
+- React Native -perusteet
+- React Hooks (`useState`)
+- Käyttäjäsyötteen käsittely ja validointi
+- Reaaliaikainen laskenta
+- TypeScript React Native -sovelluksessa
+
+---
+
+### 📝 Huomioita
+- Sovellus käyttää `keyboardType="number-pad"` syötteen rajaamiseksi numeroihin
+- Virheellinen syöte (esim. tyhjä, kirjaimet) näyttää 0-arvot
+- Laskenta tapahtuu reaaliaikaisesti `useState`-hookin avulla
+- Tulokset pyöristetään lähimpään kokonaislukuun (`Math.round()`)
+
+---
+
