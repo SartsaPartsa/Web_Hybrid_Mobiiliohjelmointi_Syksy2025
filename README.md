@@ -62,17 +62,17 @@ Jos käyttäjä syöttää **ei-numeerisen arvon** (esim. pisteitä, pilkkuja ta
 ```
 Tehtava1/
   Tavoitesyke/
-    ├── App.tsx          # Pääsovellus
-    ├── package.json     # Riippuvuudet ja skriptit
-    ├── app.json        # Expo-konfiguraatio
-    ├── tsconfig.json   # TypeScript-konfiguraatio
+    ├── App.tsx          # Sovelluksen pääkomponentti
+    ├── package.json     # Projektin riippuvuudet ja npm-skriptit
+    ├── app.json        # Expo-sovelluksen konfiguraatiotiedosto
+    ├── tsconfig.json   # TypeScript-kääntäjän asetukset
     ├── index.ts        # Sovelluksen käynnistyspiste
-    └── assets/         # Resurssit (kuvat, fontit)
+    └── assets/         # Kuvat, fontit ja muut staattiset resurssit
 ```
 
 ---
 
-### 🎯 Oppimistavoitteet
+### 🎯 Oppimstavoitteet
 - React Native -perusteet
 - React Hooks (`useState`)
 - Käyttäjäsyötteen käsittely ja validointi
