@@ -64,16 +64,34 @@ npm run web       # Verkkoselain
 ---
 
 ### 📁 Projektikansio
+
 ```
-Tehtava1/
-  Tavoitesyke/
-    ├── App.tsx         # Sovelluksen pääkomponentti
-    ├── package.json    # Projektin riippuvuudet ja npm-skriptit
-    ├── app.json        # Expo-sovelluksen konfiguraatiotiedosto
-    ├── tsconfig.json   # TypeScript-kääntäjän asetukset
-    ├── index.ts        # Sovelluksen käynnistyspiste
-    └── assets/         # Kuvat, fontit ja muut staattiset resurssit
+Web_Hybrid_Mobiiliohjelmointi_T1/
+├── README.md
+└── Tehtava1/
+    └── Tavoitesyke/
+        ├── App.tsx              # Sovelluksen pääkomponentti
+        ├── app.json             # Expo-konfiguraatio  
+        ├── index.ts             # Sovelluksen käynnistyspiste
+        ├── package.json         # Projektin riippuvuudet
+        ├── package-lock.json    # Lukitut riippuvuusversiot
+        ├── tsconfig.json        # TypeScript-asetukset
+        ├── .gitignore           # Git-ohitettavat tiedostot
+        └── assets/              # Kuvat ja resurssit
+            ├── adaptive-icon.png
+            ├── favicon.png
+            ├── icon.png
+            └── splash-icon.png
 ```
+
+**Tärkeimmät tiedostot:**
+- 📱 **App.tsx** - Tavoitesyke-sovelluksen lähdekoodi
+- ⚙️ **package.json** - Projektin riippuvuudet ja skriptit  
+- 🖼️ **assets/** - Sovelluksen ikonit ja grafiikat
+
+**Ei näy GitHubissa** (`.gitignore`):
+- `node_modules/` - Ladattavat riippuvuudet
+- `.expo/` - Kehitystyökalujen väliaikaiset tiedostot
 
 ---
 
