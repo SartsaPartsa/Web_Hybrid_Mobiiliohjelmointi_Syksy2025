@@ -84,17 +84,6 @@ Web_Hybrid_Mobiiliohjelmointi_T1/
             └── splash-icon.png
 ```
 
-**Tärkeimmät tiedostot:**
-- 📱 **App.tsx** - Tavoitesyke-sovelluksen lähdekoodi
-- ⚙️ **package.json** - Projektin riippuvuudet ja skriptit  
-- 🖼️ **assets/** - Sovelluksen ikonit ja grafiikat
-
-**Ei näy GitHubissa** (`.gitignore`):
-- `node_modules/` - Ladattavat riippuvuudet
-- `.expo/` - Kehitystyökalujen väliaikaiset tiedostot
-
----
-
 ### 🎯 Oppimistavoitteet
 - React Native -perusteet
 - React Hooks (`useState`)
