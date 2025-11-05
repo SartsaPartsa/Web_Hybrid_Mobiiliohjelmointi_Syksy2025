@@ -94,3 +94,36 @@ Tehtava1/
 
 ---
 
+## 📚 Oppimisresurssit
+
+### React Native dokumentaatio:
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - Virallinen dokumentaatio
+- [React Native TextInput](https://reactnative.dev/docs/textinput) - Tekstisyötteen käsittely
+- [React Native StyleSheet](https://reactnative.dev/docs/stylesheet) - Tyylien määrittely
+- [React Native View](https://reactnative.dev/docs/view) - Pohjakomponentti layoutille
+- [React Native Text](https://reactnative.dev/docs/text) - Tekstin näyttäminen
+
+### React Hooks:
+- [React useState Hook](https://react.dev/reference/react/useState) - Tilanhallinnan perusteet
+- [React Hooks Documentation](https://react.dev/reference/react) - Kaikki React Hooks
+
+### Expo dokumentaatio:
+- [Expo Documentation](https://docs.expo.dev/) - Expo-alustan dokumentaatio
+- [Expo CLI](https://docs.expo.dev/more/expo-cli/) - Komentorivityökalut
+- [Expo Go App](https://expo.dev/go) - Sovelluksen testaus mobiililaitteella
+
+### TypeScript:
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/) - TypeScript-dokumentaatio
+- [TypeScript with React Native](https://reactnative.dev/docs/typescript) - TypeScript React Native -sovelluksissa
+
+### Matematiikka ja laskentakaavat:
+- [Target Heart Rate Calculator](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates) - American Heart Association
+- [Exercise Heart Rate Guidelines](https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887) - Mayo Clinic
+
+### Työkalut ja ympäristöt:
+- [VS Code React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native) - Kehitystyökalut
+- [Android Studio](https://developer.android.com/studio) - Android-emulaattori
+- [Xcode](https://developer.apple.com/xcode/) - iOS-simulaattori
+
+---
+
