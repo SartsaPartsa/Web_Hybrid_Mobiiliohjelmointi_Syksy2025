@@ -1,4 +1,4 @@
-# Web_Hybrid_Mobiiliohjelmointi_Syksy2025
+# Web_Hybrid_Mobiiliohjelmointi_Tavoitesyke
 
 ## 📱 Web- ja hybriditeknologiat mobiiliohjelmoinnissa (IN00CT08-3006)
 **Oulun ammattikorkeakoulu — Syksy 2025**  
