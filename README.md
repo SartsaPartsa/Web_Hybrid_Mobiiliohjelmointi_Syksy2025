@@ -58,14 +58,13 @@ npx expo start
 npm run android   # Android-emulaattori
 npm run ios       # iOS-simulaattori  
 npm run web       # Verkkoselain
-```  
-   ```
+```
 
 ---
 
 ### 📁 Projektikansio
 
-```
+```plaintext
 Web_Hybrid_Mobiiliohjelmointi_T1/
 ├── README.md
 └── Tehtava1/
